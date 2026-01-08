@@ -35,7 +35,7 @@
 
   <!-- LEFT IMAGE -->
   <div class="hero-img">
-    <img src="pavani.png" alt="Pavani Tanmaya Sri Kancharla">
+    <img src="pavani.jpeg" alt="Pavani Tanmaya Sri Kancharla">
   </div>
 
   <!-- RIGHT CONTENT -->
@@ -72,17 +72,30 @@
 </section>
 <!-- ================= ABOUT ================= -->
 <section id="about">
-  <h2>About Me</h2>
-  <p>
-    I am a Data Science and Software Development fresher currently pursuing a
-    Master of Computer Applications (MCA) with a strong foundation in Python,
-    Java, SQL, and Machine Learning. I have hands-on experience in data analysis,
-    cloud-based systems, and academic projects such as healthcare data management
-    and market analysis of electric vehicles. I enjoy solving problems, learning
-    new technologies, and working collaboratively, and I am seeking an entry-level
-    role where I can apply my skills and grow as a professional in software
-    engineering or data science.
-  </p>
+  <section id="about" class="about-section">
+  <h2>About me</h2>
+
+  <div class="about-container">
+
+    <!-- Left image -->
+    <div class="about-image">
+      <img src="programming.jpg" alt="Programming illustration" />
+    </div>
+
+    <!-- Right tabs + content -->
+    <div class="about-content">
+      <ul class="tabs">
+        <li class="tab active" data-tab="skills">Skills</li>
+      </ul>
+
+      <div class="tab-content active" id="skills">
+        <h3><span class="highlight">Programming</span></h3>
+        <p>Python, Java, Machine Learning, AI</p>
+        <h3><span class="highlight">Web development</span></h3>
+        <p>HTML, CSS, Javascript</p>
+        <h3><span class="highlight">Other</span></h3>
+        <p>Communication, problem solving</p>
+      </div>
 </section>
 
 <!-- ================= EXPERIENCE ================= -->
@@ -154,31 +167,33 @@
   </div>
 </section>
 <!-- ================= PROJECTS ================= -->
-<section id="projects" class="fade-up">
+ <section id="projects">
   <h2>Projects</h2>
+<div class="project-card-modern">
 
-  <div class="project-card">
-    <div class="proj-icon">
-      <i class="fas fa-chart-line"></i>
-    </div>
-
-    <div>
-      <h4>Market Segment Analysis of Electric Vehicles</h4>
-      <p>
-        Conducted a detailed analysis of consumer preferences, government policies,
-        and adoption factors using data from 500+ survey responses. The project
-        focused on identifying key drivers influencing electric vehicle adoption
-        and provided insights that can support policy improvements and sustainable
-        transportation growth.
-      </p>
-
-      <a href="https://github.com/pavanitanmayasri/A-Market-Segmentation-Analysis-Of-Electric-Vehicles-"
-         target="_blank">
-        <i class="fab fa-github"></i> View Project
-      </a>
-    </div>
+  <div class="project-image">
+    <img src="ev-market-ai.jpg" alt="Market Segment Analysis of Electric Vehicles">
   </div>
+
+  <div class="project-overlay-modern">
+    <h4>Market Segment Analysis of Electric Vehicles</h4>
+
+    <p>
+      Analyzed consumer preferences, government policies, and EV adoption factors
+      using survey data and analytical techniques to identify key market segments.
+    </p>
+
+    <a href="https://github.com/pavanitanmayasri/A-Market-Segmentation-Analysis-Of-Electric-Vehicles-"
+       target="_blank">
+      <i class="fab fa-github"></i> View Project
+    </a>
+  </div>
+
+</div>
 </section>
+
+
+
 
 <!-- ================= CONTACT ================= -->
 <section id="contact">
@@ -199,6 +214,19 @@
     <span>Guntur, Andhra Pradesh, India</span>
   </div>
 </section>
+<!-- ================= CONTACT FORM ================= -->
+<section id="contact-form">
+  <h2>Get In Touch</h2>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your name" required>
+    <input type="email" placeholder="Your email" required>
+    <textarea rows="5" placeholder="Your message" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
 
 <footer>
   © 2025 Pavani Tanmaya Sri Kancharla
