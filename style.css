@@ -589,7 +589,7 @@ footer {
 .contact-form button {
   width: 100%;
   padding: 14px;
-  background: #90ee90;
+  background: #3498db;  /* changed to blue */
   color: #000;
   font-size: 1rem;
   font-weight: 600;
@@ -598,6 +598,7 @@ footer {
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
 
 .contact-form button:hover {
   transform: translateY(-2px);
